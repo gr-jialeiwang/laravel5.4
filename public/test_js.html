@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+        <script>
+            
+            runTest();
+            
+            function wait(ms) {
+                return new Promise(r => setTimeout(r, ms)).then(() => "Yay");
+            }
+
+            // do some work in background.
+            setInterval(() => 42, 200);
+
+            async function test() {
+                debugger;
+                const hello = "world";
+                const response = await fetch('index.html');
+                const tmp = await wait(1000);
+                console.log(tmp);
+                return hello;
+            }
+
+            async function runTest() {
+                let result = await test();
+                console.log(result);
+            }
+            
+        </script>
+        
+    </body>
+    
+
+    
+</html>
