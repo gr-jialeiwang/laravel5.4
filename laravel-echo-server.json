@@ -1,0 +1,24 @@
+{
+	"authHost": "http://study.dev",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "50a287f5c2534ce7",
+			"key": "995c7fe144991cf0c10bdba91d1156f1"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": ""
+}
