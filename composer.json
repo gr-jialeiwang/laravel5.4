@@ -13,6 +13,7 @@
         "laravel/passport": "^3.0",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4.0",
+        "nwidart/laravel-modules": "^1.27",
         "predis/predis": "^1.1"
     },
     "require-dev": {
